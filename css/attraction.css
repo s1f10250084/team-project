@@ -1,6 +1,16 @@
 h1{
-    color: #228694;
+    color: #8a2be2;
+    font-family: "serif";
+    font-size: 50px;
+    text-align: center;
+    background-color: #cccccc;
+    border: solid 3px #000000
 }
 h2{
-    color: aquamarine;
+    color: #8a2b;
+    text-align: center;
+    background-color: #cccccc;
+    font-style: oblique;
+    border: solid 3px #000000
+    
 }

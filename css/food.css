@@ -1,0 +1,19 @@
+.foodname{
+    color: #8a2b;
+}
+
+.price{
+}
+
+.flaver{ 
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
