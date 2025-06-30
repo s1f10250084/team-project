@@ -1,19 +1,50 @@
-.foodname{
-    color: #8a2b;
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;          
+  justify-content: space-between; 
 }
 
-.price{
+
+.container .item {
+  flex: 0 1 calc(33.3% - 20px); 
+  box-sizing: border-box;
+  margin-bottom: 40px;           
 }
 
-.flaver{ 
+.foodname {
+  font-size: 1.1em;
+  color: #8a2b;
+  margin-bottom: 0.8em;
+  position: relative;
 }
+
+.foodname::before {
+  content: "▲";
+  margin-right: 0.4em;
+  font-size: 1em;
+  color: rgba(33, 173, 56, 0.733);
+}
+
 
 .pic {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  display: block;
+  border-radius: 10px;         
+  object-fit: cover;          
+  margin-bottom: 0.8em;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
+.price {
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+.flavors {
+  margin-bottom: 0.3em;
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.4;
 }
