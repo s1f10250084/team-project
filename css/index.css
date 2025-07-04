@@ -152,7 +152,7 @@ td {
 }
 .calendar td.closed-day {
     color: gray;
-    background-color: #f0f0f0;  背景色も変えたい場合はコメントを外してください */
-    text-decoration: line-through; 取り消し線を入れたい場合はコメントを外してください */
+    background-color: #f0f0f0;
+    text-decoration: line-through;
     font-weight: normal;
 }
