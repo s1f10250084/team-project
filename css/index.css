@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-    color: #8a2b;
+    color: #8a2b; /* このh1は一番上の「スクリーム・ギフ」に適用されます */
 }
 
 section {
@@ -17,23 +17,69 @@ h2 {
     color: orange;
 }
 
-
 .main-navigation {
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-bottom: 30px;
+}
 
 .main-navigation p {
     margin: 0;
-    padding: 0 10px; /
+    padding: 0 10px; 
 }
 
 .main-navigation a {
-    text-decoration: none; /
-    color: #007bff; /
-    font-weight: bold; /
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold; 
+}
 
 .main-navigation a:hover {
-    opacity: 0.8; 
+    opacity: 0.8;
+}
+
+.calendar-container {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #f6f5f4;
+    color: #1a1a1a;
+}
+h1 {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+.calendar {
+    padding: 0 30px 30px 30px;
+}
+table {
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+th {
+    font-weight: normal;
+    font-size: 14px;
+}
+td {
+    font-weight: bold;
+}
+.calendar td:nth-child(1) {
+  color: #ff838b;
+}
+
+.calendar td:nth-child(7) {
+  color: #6fb5ff;
+}
+.calendar td.closed-day {
+    color: gray;
+    background-color: #f0f0f0;  背景色も変えたい場合はコメントを外してください */
+    text-decoration: line-through; 取り消し線を入れたい場合はコメントを外してください */
+    font-weight: normal;
 }
