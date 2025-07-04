@@ -5,21 +5,66 @@ html {
 .site-header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    margin-bottom: 5px;
 }
 
 h1 {
     color: #8a2b; 
-    margin-right: 15px; 
-    font-size: 2.5em;
+    margin-right: 10px; 
+    font-size: 2.2em;
     white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .header-logo {
-    width: 80px;
+    width: 70px;
     height: auto;
     border-radius: 10px;
 }
+
+.welcome-message-container {
+    text-align: center; 
+    margin-bottom: 40px; 
+    padding: 20px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    margin-left: auto; 
+    margin-right: auto; 
+    animation: fadeInScale 1.5s ease-out forwards; 
+}
+
+.welcome-message {
+    font-family: 'Bangers', cursive, 'Noto Sans JP', sans-serif; 
+    font-size: 3.5em; 
+    font-weight: 900;
+    margin: 0; 
+    line-height: 1.2; 
+    letter-spacing: 2px;
+    color:#2c3e50;
+}
+
+.welcome-message.sub-message {
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-size: 1.8em; 
+    font-weight: 700; 
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #2c3e50;
+}
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 
 section {
     padding: 50px 0;
