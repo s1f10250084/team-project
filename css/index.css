@@ -2,8 +2,23 @@ html {
     scroll-behavior: smooth;
 }
 
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 h1 {
-    color: #8a2b; /* このh1は一番上の「スクリーム・ギフ」に適用されます */
+    color: #8a2b; 
+    margin-right: 15px; 
+    font-size: 2.5em;
+    white-space: nowrap;
+}
+.header-logo {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
 }
 
 section {
