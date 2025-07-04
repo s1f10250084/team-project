@@ -5,12 +5,35 @@ html {
 h1 {
     color: #8a2b;
 }
+
 section {
     padding: 50px 0;
     margin-bottom: 20px;
     border-bottom: 1px solid #eee;
 }
-h2{
+
+h2 {
     font-style: italic;
-    color: #8989ff;
+    color: orange;
+}
+
+
+.main-navigation {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-bottom: 30px;
+
+.main-navigation p {
+    margin: 0;
+    padding: 0 10px; /
+}
+
+.main-navigation a {
+    text-decoration: none; /
+    color: #007bff; /
+    font-weight: bold; /
+
+.main-navigation a:hover {
+    opacity: 0.8; 
 }
