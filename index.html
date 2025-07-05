@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>チームで作るウェブサイト</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+  </head>
 <body>
-    <h1>スクリーム・ギフ</h1>
+    <header class="site-header">
+        <h1>スクリーム・ギフ</h1>
+        <a href="#">
+        <img src="pictures/scream-gifu-logo.png" alt="スクリーム・ギフのロゴ" class="header-logo">
+        </a>
+    </header>
+
+    <div class="welcome-message-container">
+      <p class="welcome-message">スクリーム・ギフへようこそ！</p>
+      <p class="welcome-message sub-message">スリルと感動が待つ冒険を！</p>
+    </div>
+
 
     <nav class="main-navigation">
         <p><a href="#attraction">アトラクション</a></p>
         <p><a href="#food">グルメ</a></p>
-        <p><a href="#access">アクセス</a></p>
         <p><a href="#map">マップ</a></p>
+        <p><a href="#access">アクセス</a></p>
         <p><a href="#eigyou">営業日</a></p>
     </nav>
 
@@ -27,15 +39,17 @@
         <p><a href="food.html">フード情報を見る</a></p>
     </section>
 
+    <section id="map">
+        <h2>マップ</h2>
+        <p><a href="Map.html">マップ情報を見る</a></p>
+    </section>
+
     <section id="access">
         <h2>アクセス</h2>
         <p><a href="access.html">アクセスの情報を見る</a></p>
     </section>
     
-    <section id="map">
-        <h2>マップ</h2>
-        <p><a href="Map.html">マップ情報を見る</a></p>
-    </section>
+
     
     <section id ='eigyou'>
     <h3>今月の営業カレンダー</h3>
@@ -96,7 +110,7 @@
       </tr>
     </table>
   </div>
-  <p>※灰色が定休日</p>
+  <p>※灰色は休園日</p>
   </section>
 </body>
 </html>
